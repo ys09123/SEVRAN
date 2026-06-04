@@ -1,0 +1,76 @@
+station_id,station_name,provider,area,lat,lon,charger_type,power_kw,status,price_per_kwh,rating,amenities,cluster,density_zone,base_wait_min
+BLR-001,Statiq — Koramangala 5th Block Hub,Statiq,Koramangala,12.938556,77.625662,DC Fast (CHAdeMO),50,Available,16.34,3.6,"Security Camera, Vending Machine, WiFi, Restroom",0,Medium,8
+BLR-002,Statiq — Koramangala 5th Block Hub,Statiq,Koramangala,12.931401,77.622151,AC Level 2,22,Available,16.57,4.1,"WiFi, Vending Machine",0,Medium,10
+BLR-003,Ather Grid — Koramangala 5th Block Hub,Ather Grid,Koramangala,12.936309,77.619057,DC Fast (CCS2),150,In Use,14.52,3.8,"Vending Machine, Café, Lounge, 24/7 Access",0,Medium,10
+BLR-004,Tata Power EZ Charge — Koramangala 5th Block Hub,Tata Power EZ Charge,Koramangala,12.937411,77.623782,AC Level 2,22,Available,14.24,4.2,"Security Camera, 24/7 Access, Lounge, Restroom",0,Medium,12
+BLR-005,ChargeZone — Koramangala 5th Block Hub,ChargeZone,Koramangala,12.940835,77.627802,DC Fast (CCS2),150,Available,14.82,4.8,"Lounge, Café, Restroom",0,Medium,5
+BLR-006,JEEV — Indiranagar 100ft Road,JEEV,Indiranagar,12.982345,77.639081,DC Fast (CHAdeMO),50,Available,11.84,4.3,"Restroom, Parking",1,High,18
+BLR-007,Tata Power EZ Charge — Indiranagar 100ft Road,Tata Power EZ Charge,Indiranagar,12.972569,77.637186,DC Fast (CCS2),150,Available,15.42,4.7,"Vending Machine, 24/7 Access, Café, Parking",1,High,12
+BLR-008,Statiq — Indiranagar 100ft Road,Statiq,Indiranagar,12.97685,77.642826,AC Level 2,22,Available,17.0,4.4,"Parking, Restroom, Lounge",1,High,24
+BLR-009,Ather Grid — Indiranagar 100ft Road,Ather Grid,Indiranagar,12.975232,77.637873,AC Level 2,7,In Use,13.1,4.6,"24/7 Access, WiFi, Security Camera",1,High,25
+BLR-010,Statiq — Indiranagar 100ft Road,Statiq,Indiranagar,12.983291,77.637792,DC Fast (CHAdeMO),50,In Use,16.23,4.6,"WiFi, 24/7 Access, Parking, Restroom, Vending Machine",1,High,18
+BLR-011,JEEV — Whitefield ITPL Main Gate,JEEV,Whitefield,12.969278,77.746621,AC Level 2,7,Available,12.25,4.8,"Vending Machine, Lounge, 24/7 Access, Café, WiFi",2,Low,2
+BLR-012,Tata Power EZ Charge — Whitefield ITPL Main Gate,Tata Power EZ Charge,Whitefield,12.963806,77.748231,AC Level 2,7,In Use,14.61,3.7,"Security Camera, Parking, Restroom, Café",2,Low,7
+BLR-013,Ather Grid — Whitefield ITPL Main Gate,Ather Grid,Whitefield,12.964579,77.747047,AC Level 2,7,Available,13.62,4.5,"Parking, Restroom, Security Camera, Café",2,Low,2
+BLR-014,ChargeZone — Whitefield ITPL Main Gate,ChargeZone,Whitefield,12.967144,77.754899,DC Fast (CCS2),150,Available,12.72,3.7,"24/7 Access, WiFi, Lounge, Security Camera, Café",2,Low,0
+BLR-015,JEEV — Whitefield ITPL Main Gate,JEEV,Whitefield,12.968586,77.753797,DC Fast (CCS2),150,Offline,13.4,3.7,"WiFi, Restroom, 24/7 Access, Security Camera",2,Low,0
+BLR-016,Ather Grid — Electronic City Phase 1 Plaza,Ather Grid,Electronic City,12.840718,77.661042,AC Level 2,22,In Use,13.44,4.5,"24/7 Access, Lounge, Vending Machine, Parking, Café",0,Medium,7
+BLR-017,ChargeZone — Electronic City Phase 1 Plaza,ChargeZone,Electronic City,12.84592,77.663107,AC Level 2,22,Available,13.67,4.3,"Restroom, Security Camera, Café",0,Medium,6
+BLR-018,Tata Power EZ Charge — Electronic City Phase 1 Plaza,Tata Power EZ Charge,Electronic City,12.846711,77.664065,AC Level 2,7,Available,15.77,4.7,"Security Camera, Vending Machine, Lounge, Restroom, 24/7 Access",0,Medium,5
+BLR-019,Tata Power EZ Charge — Electronic City Phase 1 Plaza,Tata Power EZ Charge,Electronic City,12.841407,77.656964,DC Fast (CCS2),50,Offline,14.97,4.2,"Café, Lounge",0,Medium,0
+BLR-020,Statiq — Electronic City Phase 1 Plaza,Statiq,Electronic City,12.84482,77.654424,DC Fast (CCS2),50,In Use,16.1,3.9,"WiFi, Parking, Restroom",0,Medium,6
+BLR-021,Ather Grid — MG Road Metro Station,Ather Grid,MG Road,12.975632,77.607523,DC Fast (CCS2),50,In Use,14.23,3.8,"Lounge, Restroom",1,High,13
+BLR-022,Tata Power EZ Charge — MG Road Metro Station,Tata Power EZ Charge,MG Road,12.981047,77.611578,DC Fast (CCS2),150,Offline,14.74,3.5,"Security Camera, Restroom, Parking, Café, 24/7 Access",1,High,0
+BLR-023,Tata Power EZ Charge — MG Road Metro Station,Tata Power EZ Charge,MG Road,12.974221,77.610814,DC Fast (CCS2),150,Available,14.63,3.8,"WiFi, Parking",1,High,23
+BLR-024,ChargeZone — MG Road Metro Station,ChargeZone,MG Road,12.973143,77.604471,AC Level 2,22,Available,14.55,3.7,"Parking, WiFi, Vending Machine",1,High,12
+BLR-025,ChargeZone — MG Road Metro Station,ChargeZone,MG Road,12.970579,77.600662,AC Level 2,7,In Use,13.88,3.8,"Restroom, WiFi, Lounge, Café, Parking",1,High,13
+BLR-026,Statiq — HSR Layout Sector 2 Park,Statiq,HSR Layout,12.912539,77.633331,AC Level 2,22,Available,16.4,4.3,"Lounge, Café",0,Medium,10
+BLR-027,Ather Grid — HSR Layout Sector 2 Park,Ather Grid,HSR Layout,12.915534,77.636159,DC Fast (CCS2),150,Available,15.41,4.2,"Security Camera, Restroom, WiFi",0,Medium,7
+BLR-028,Statiq — HSR Layout Sector 2 Park,Statiq,HSR Layout,12.915142,77.63615,AC Level 2,22,Available,16.32,3.6,"24/7 Access, Café",0,Medium,8
+BLR-029,ChargeZone — HSR Layout Sector 2 Park,ChargeZone,HSR Layout,12.908603,77.639491,AC Level 2,22,Available,14.14,4.5,"24/7 Access, Restroom",0,Medium,5
+BLR-030,ChargeZone — HSR Layout Sector 2 Park,ChargeZone,HSR Layout,12.905773,77.634293,DC Fast (CCS2),50,In Use,12.14,3.6,"WiFi, Café, Restroom",0,Medium,12
+BLR-031,JEEV — JP Nagar 6th Phase Circle,JEEV,JP Nagar,12.905506,77.584482,DC Fast (CCS2),150,Available,12.85,4.5,"WiFi, 24/7 Access, Lounge",0,Medium,11
+BLR-032,Tata Power EZ Charge — JP Nagar 6th Phase Circle,Tata Power EZ Charge,JP Nagar,12.90769,77.591027,DC Fast (CHAdeMO),50,In Use,15.89,4.8,"Lounge, Vending Machine, WiFi, 24/7 Access, Restroom",0,Medium,11
+BLR-033,JEEV — JP Nagar 6th Phase Circle,JEEV,JP Nagar,12.907811,77.589545,DC Fast (CCS2),50,In Use,12.95,3.8,"Security Camera, 24/7 Access",0,Medium,7
+BLR-034,Ather Grid — JP Nagar 6th Phase Circle,Ather Grid,JP Nagar,12.904925,77.587879,AC Level 2,7,In Use,13.85,3.9,"Vending Machine, 24/7 Access, Café, WiFi",0,Medium,14
+BLR-035,Statiq — JP Nagar 6th Phase Circle,Statiq,JP Nagar,12.903684,77.581829,AC Level 2,7,In Use,17.25,4.7,"Lounge, Vending Machine",0,Medium,14
+BLR-036,JEEV — Marathahalli Bridge Junction,JEEV,Marathahalli,12.96211,77.704955,DC Fast (CCS2),150,Available,11.31,4.9,"Restroom, Security Camera, 24/7 Access",2,Low,2
+BLR-037,Statiq — Marathahalli Bridge Junction,Statiq,Marathahalli,12.963266,77.700159,DC Fast (CCS2),150,Offline,17.87,4.5,"Parking, Security Camera, WiFi, 24/7 Access, Vending Machine",2,Low,0
+BLR-038,Ather Grid — Marathahalli Bridge Junction,Ather Grid,Marathahalli,12.962599,77.705375,DC Fast (CHAdeMO),50,In Use,13.23,4.2,"24/7 Access, WiFi, Parking, Café",2,Low,0
+BLR-039,Ather Grid — Marathahalli Bridge Junction,Ather Grid,Marathahalli,12.954816,77.705038,DC Fast (CCS2),50,Available,14.55,3.7,"Security Camera, Parking, Café, 24/7 Access",2,Low,6
+BLR-040,ChargeZone — Marathahalli Bridge Junction,ChargeZone,Marathahalli,12.955899,77.702876,DC Fast (CHAdeMO),50,In Use,14.59,4.8,"Vending Machine, Café",2,Low,6
+BLR-041,Ather Grid — Hebbal Flyover Complex,Ather Grid,Hebbal,13.038261,77.593985,DC Fast (CHAdeMO),50,Available,13.83,4.2,"24/7 Access, Café",1,High,23
+BLR-042,Tata Power EZ Charge — Hebbal Flyover Complex,Tata Power EZ Charge,Hebbal,13.03265,77.595803,AC Level 2,7,In Use,14.96,3.6,"Café, Security Camera",1,High,13
+BLR-043,JEEV — Hebbal Flyover Complex,JEEV,Hebbal,13.030321,77.602096,DC Fast (CHAdeMO),50,Available,13.76,3.9,"Café, 24/7 Access, Vending Machine, Lounge",1,High,18
+BLR-044,Tata Power EZ Charge — Hebbal Flyover Complex,Tata Power EZ Charge,Hebbal,13.03441,77.599845,DC Fast (CHAdeMO),50,In Use,15.83,4.9,"Lounge, Café, Restroom, WiFi, Security Camera",1,High,24
+BLR-045,Statiq — Hebbal Flyover Complex,Statiq,Hebbal,13.032553,77.594191,AC Level 2,22,Available,16.08,3.9,"Café, Restroom, Parking, Lounge",1,High,19
+BLR-046,JEEV — Jayanagar 4th Block,JEEV,Jayanagar,12.926398,77.578714,DC Fast (CCS2),150,Available,13.82,4.1,"24/7 Access, Café",0,Medium,5
+BLR-047,Ather Grid — Jayanagar 4th Block,Ather Grid,Jayanagar,12.929735,77.587131,DC Fast (CHAdeMO),50,Available,14.2,5.0,"Security Camera, Parking, Vending Machine, 24/7 Access",0,Medium,13
+BLR-048,Tata Power EZ Charge — Jayanagar 4th Block,Tata Power EZ Charge,Jayanagar,12.926406,77.577964,AC Level 2,22,Available,14.15,4.5,"Restroom, Parking",0,Medium,11
+BLR-049,JEEV — Jayanagar 4th Block,JEEV,Jayanagar,12.929334,77.580693,DC Fast (CHAdeMO),50,In Use,11.62,3.9,"Security Camera, Café",0,Medium,7
+BLR-050,ChargeZone — Jayanagar 4th Block,ChargeZone,Jayanagar,12.934068,77.584042,AC Level 2,22,In Use,14.56,4.3,"Restroom, Parking",0,Medium,12
+BLR-051,JEEV — Bannerghatta Road Main Junction,JEEV,Bannerghatta Road,12.891261,77.601738,DC Fast (CHAdeMO),50,In Use,12.85,5.0,"WiFi, Security Camera, Parking",0,Medium,11
+BLR-052,Statiq — Bannerghatta Road Main Junction,Statiq,Bannerghatta Road,12.891004,77.595659,AC Level 2,7,In Use,16.87,4.8,"Café, Security Camera",0,Medium,15
+BLR-053,Statiq — Bannerghatta Road Main Junction,Statiq,Bannerghatta Road,12.887511,77.594845,DC Fast (CHAdeMO),50,Offline,16.9,3.9,"Restroom, Vending Machine, 24/7 Access, Lounge",0,Medium,0
+BLR-054,Ather Grid — Bannerghatta Road Main Junction,Ather Grid,Bannerghatta Road,12.883668,77.593207,DC Fast (CCS2),50,In Use,13.1,3.8,"Parking, Café, WiFi, 24/7 Access, Security Camera",0,Medium,10
+BLR-055,Tata Power EZ Charge — Bannerghatta Road Main Junction,Tata Power EZ Charge,Bannerghatta Road,12.885971,77.596941,DC Fast (CCS2),150,Available,15.38,3.6,"Restroom, Parking",0,Medium,13
+BLR-056,ChargeZone — Rajajinagar Metro Hub,ChargeZone,Rajajinagar,12.991279,77.549514,DC Fast (CCS2),150,In Use,12.63,4.1,"24/7 Access, Café, Lounge",1,High,16
+BLR-057,Ather Grid — Rajajinagar Metro Hub,Ather Grid,Rajajinagar,12.993042,77.55344,DC Fast (CCS2),50,In Use,14.33,3.7,"Parking, Restroom, Lounge",1,High,14
+BLR-058,ChargeZone — Rajajinagar Metro Hub,ChargeZone,Rajajinagar,12.98337,77.553724,AC Level 2,7,In Use,12.7,4.0,"Vending Machine, 24/7 Access",1,High,14
+BLR-059,Statiq — Rajajinagar Metro Hub,Statiq,Rajajinagar,12.989338,77.554074,AC Level 2,22,In Use,16.14,4.0,"Lounge, Parking, Security Camera, WiFi, Vending Machine",1,High,12
+BLR-060,Tata Power EZ Charge — Rajajinagar Metro Hub,Tata Power EZ Charge,Rajajinagar,12.985004,77.551684,AC Level 2,7,Available,14.98,4.8,"Security Camera, Restroom, Parking",1,High,23
+BLR-061,JEEV — Yelahanka New Town Center,JEEV,Yelahanka,13.105459,77.597212,DC Fast (CCS2),150,Offline,13.75,3.5,"Lounge, Parking, 24/7 Access",1,High,0
+BLR-062,Ather Grid — Yelahanka New Town Center,Ather Grid,Yelahanka,13.103934,77.592545,AC Level 2,22,Available,13.81,4.1,"Lounge, Café",1,High,13
+BLR-063,JEEV — Yelahanka New Town Center,JEEV,Yelahanka,13.098548,77.597427,DC Fast (CCS2),50,Offline,12.11,4.2,"Vending Machine, Café",1,High,0
+BLR-064,Tata Power EZ Charge — Yelahanka New Town Center,Tata Power EZ Charge,Yelahanka,13.0961,77.595978,DC Fast (CHAdeMO),50,Available,15.21,4.7,"24/7 Access, Café, Restroom, Security Camera",1,High,19
+BLR-065,JEEV — Yelahanka New Town Center,JEEV,Yelahanka,13.096875,77.591098,DC Fast (CCS2),50,Offline,13.22,4.4,"Security Camera, Vending Machine, Parking, Restroom, 24/7 Access",1,High,0
+BLR-066,JEEV — Sarjapur Road Tech Park Gate,JEEV,Sarjapur Road,12.912682,77.687477,DC Fast (CHAdeMO),50,In Use,12.08,4.8,"Lounge, Parking",2,Low,7
+BLR-067,Tata Power EZ Charge — Sarjapur Road Tech Park Gate,Tata Power EZ Charge,Sarjapur Road,12.909398,77.687582,AC Level 2,7,Available,14.13,3.8,"WiFi, Restroom, Parking, Lounge",2,Low,3
+BLR-068,ChargeZone — Sarjapur Road Tech Park Gate,ChargeZone,Sarjapur Road,12.912141,77.687602,DC Fast (CCS2),150,In Use,14.68,4.7,"Restroom, Security Camera, Parking",2,Low,3
+BLR-069,Statiq — Sarjapur Road Tech Park Gate,Statiq,Sarjapur Road,12.915221,77.685305,AC Level 2,22,In Use,17.46,3.7,"Security Camera, Restroom, Café, WiFi, Vending Machine",2,Low,4
+BLR-070,Statiq — Sarjapur Road Tech Park Gate,Statiq,Sarjapur Road,12.912394,77.689527,DC Fast (CHAdeMO),50,In Use,16.63,3.9,"WiFi, Security Camera",2,Low,5
+BLR-071,ChargeZone — Malleshwaram Sampige Road,ChargeZone,Malleshwaram,13.004535,77.571071,DC Fast (CCS2),50,Available,13.83,3.5,"24/7 Access, Restroom, WiFi, Lounge, Vending Machine",1,High,16
+BLR-072,JEEV — Malleshwaram Sampige Road,JEEV,Malleshwaram,13.001993,77.565827,AC Level 2,22,In Use,11.23,3.7,"Parking, Security Camera",1,High,25
+BLR-073,Statiq — Malleshwaram Sampige Road,Statiq,Malleshwaram,13.001237,77.567729,AC Level 2,7,Available,16.82,4.1,"Café, Vending Machine",1,High,18
+BLR-074,Ather Grid — Malleshwaram Sampige Road,Ather Grid,Malleshwaram,13.008538,77.569156,DC Fast (CCS2),150,In Use,13.87,4.6,"WiFi, Restroom",1,High,13
+BLR-075,Tata Power EZ Charge — Malleshwaram Sampige Road,Tata Power EZ Charge,Malleshwaram,13.008478,77.569349,DC Fast (CCS2),150,Available,15.16,4.4,"24/7 Access, Café, Security Camera, Parking, Vending Machine",1,High,18
