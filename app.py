@@ -337,6 +337,9 @@ if "bookings" not in st.session_state:
         },
     ]
 
+if "last_booking_confirmation" not in st.session_state:
+    st.session_state.last_booking_confirmation = None
+
 
 # ─────────────────────────────────────────────────────────
 #  DATA LOADING
@@ -930,13 +933,30 @@ with col_booking:
                         <div style="font-size:12px; color:#94a3b8;">
                             🕐 Total Time
                             <div style="font-size:18px; font-weight:800; color:#e2e8f0;">
-                                ~{eta_min + charge_duration + (bk['pred_wait'] or 0)} min</div>
+                                ~{eta_min + charge_duration + (int(bk['pred_wait']) if pd.notna(bk['pred_wait']) else 0)} min</div>
                         </div>
                     </div>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
+
+            # ── Show confirmation from previous booking ──
+            if st.session_state.last_booking_confirmation:
+                conf = st.session_state.last_booking_confirmation
+                st.balloons()
+                st.success(
+                    f"**✅ Booking Confirmed!**\n\n"
+                    f"**Booking ID:** `{conf['id']}`\n\n"
+                    f"**Station:** {conf['station']}\n\n"
+                    f"**Duration:** {conf['duration']} min · "
+                    f"**Energy:** {conf['energy']:.1f} kWh\n\n"
+                    f"**Amount Charged:** ₹{conf['cost']:,.0f} "
+                    f"from Unified Wallet\n\n"
+                    f"**Remaining Balance:** "
+                    f"₹{st.session_state.wallet_balance:,.2f}"
+                )
+                st.session_state.last_booking_confirmation = None
 
             # ── Book Button ─────────────────────────────
             st.markdown("")
@@ -959,18 +979,15 @@ with col_booking:
                         "duration": charge_duration,
                         "time": datetime.now().strftime("%d %b, %H:%M"),
                     })
-                    st.balloons()
-                    st.success(
-                        f"**✅ Booking Confirmed!**\n\n"
-                        f"**Booking ID:** `{booking_id}`\n\n"
-                        f"**Station:** {bk['station_name']}\n\n"
-                        f"**Duration:** {charge_duration} min · "
-                        f"**Energy:** {energy_kwh:.1f} kWh\n\n"
-                        f"**Amount Charged:** ₹{estimated_cost:,.0f} "
-                        f"from Unified Wallet\n\n"
-                        f"**Remaining Balance:** "
-                        f"₹{st.session_state.wallet_balance:,.2f}"
-                    )
+                    # Store confirmation and rerun so sidebar wallet updates
+                    st.session_state.last_booking_confirmation = {
+                        "id": booking_id,
+                        "station": bk["station_name"],
+                        "cost": estimated_cost,
+                        "duration": charge_duration,
+                        "energy": energy_kwh,
+                    }
+                    st.rerun()
                 else:
                     deficit = estimated_cost - st.session_state.wallet_balance
                     st.error(
