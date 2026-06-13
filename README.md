@@ -109,13 +109,8 @@ ev_sales/
 ├── generate_mock_data.py   # Mock data generator (75 Bangalore stations)
 ├── mock_chargers.csv       # Generated prototype dataset
 │
-├── ev_sales.ipynb          # Original analysis notebook
-├── EV.csv                  # Raw EV stock dataset (3,799 rows)
-├── df_cluster.csv          # Original cluster output
-│
 ├── requirements.txt        # Python dependencies
-├── README.md               # This file
-└── screenshots/            # Demo screenshots
+└── README.md               # This file
 ```
 
 ---
